@@ -20,7 +20,7 @@ def max_seq(arr):
     
 def AssertEqual(expected_result, generated_result):
     if expected_result != generated_result:
-        raise AssertionError("Expecte:d {}, got: {}".format(expected_result, generated_result))
+        raise AssertionError("Expected:d {}, got: {}".format(expected_result, generated_result))
     else:
         print("Test case passed")
         
